@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="AuthClient.cpp">
+      <Filter>Clients</Filter>
+    </ClCompile>
+    <ClCompile Include="AuthHandler.cpp">
+      <Filter>Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="Config.cpp" />
+    <ClCompile Include="Handler.cpp">
+      <Filter>Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="ChatClient.cpp">
+      <Filter>Clients</Filter>
+    </ClCompile>
+    <ClCompile Include="ChatHandler.cpp">
+      <Filter>Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="GameClient.cpp">
+      <Filter>Clients</Filter>
+    </ClCompile>
+    <ClCompile Include="GameHandler.cpp">
+      <Filter>Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="LongPeerId.cpp" />
+    <ClCompile Include="PeerId.cpp" />
+    <ClCompile Include="RelayHandler.cpp">
+      <Filter>Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="Extensions.cpp" />
+    <ClCompile Include="RelayClient.cpp">
+      <Filter>Clients</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="S4RMI.h" />
+    <ClInclude Include="AuthClient.h">
+      <Filter>Clients</Filter>
+    </ClInclude>
+    <ClInclude Include="Config.h" />
+    <ClInclude Include="AuthHandler.h">
+      <Filter>Handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="Handler.h">
+      <Filter>Handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="ServerInfo.h" />
+    <ClInclude Include="GameClient.h">
+      <Filter>Clients</Filter>
+    </ClInclude>
+    <ClInclude Include="ChannelInfo.h" />
+    <ClInclude Include="RoomInfo.h" />
+    <ClInclude Include="ChatClient.h">
+      <Filter>Clients</Filter>
+    </ClInclude>
+    <ClInclude Include="ChatHandler.h">
+      <Filter>Handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="GameHandler.h">
+      <Filter>Handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="RelayClient.h">
+      <Filter>Clients</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerInfo.h" />
+    <ClInclude Include="LongPeerId.h" />
+    <ClInclude Include="PeerId.h" />
+    <ClInclude Include="RelayHandler.h">
+      <Filter>Handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="Extensions.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Clients">
+      <UniqueIdentifier>{40b5ceb9-c00a-49ac-9ff7-c5d463452d18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Handlers">
+      <UniqueIdentifier>{62364def-8623-43fd-a769-a07d6e50292f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

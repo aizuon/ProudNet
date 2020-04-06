@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Nettention">
+      <UniqueIdentifier>{481c7cd8-7030-4ea0-9102-45717a7f9994}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Nettention\Proud">
+      <UniqueIdentifier>{d3598912-98d9-4e73-81fd-e85d89de789e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="NetClient.cpp">
+      <Filter>Nettention\Proud</Filter>
+    </ClCompile>
+    <ClCompile Include="NetCrypt.cpp">
+      <Filter>Nettention\Proud</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="NetClient.h">
+      <Filter>Nettention\Proud</Filter>
+    </ClInclude>
+    <ClInclude Include="Enums.h">
+      <Filter>Nettention\Proud</Filter>
+    </ClInclude>
+    <ClInclude Include="NetCrypt.h">
+      <Filter>Nettention\Proud</Filter>
+    </ClInclude>
+    <ClInclude Include="NetSettings.h">
+      <Filter>Nettention\Proud</Filter>
+    </ClInclude>
+    <ClInclude Include="P2PGroup.h">
+      <Filter>Nettention\Proud</Filter>
+    </ClInclude>
+    <ClInclude Include="P2PMember.h">
+      <Filter>Nettention\Proud</Filter>
+    </ClInclude>
+    <ClInclude Include="Constants.h">
+      <Filter>Nettention\Proud</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
